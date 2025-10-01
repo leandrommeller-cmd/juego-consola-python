@@ -40,7 +40,7 @@ def main():
                 break
 
         if jugador.salud <= 0:
-            print("Has perdido la partida. Intentalo de nuevo.")
+            print("Has perdido la partida. Inténtalo de nuevo.")
             break
 
         if enemigo_actual.salud <= 0:

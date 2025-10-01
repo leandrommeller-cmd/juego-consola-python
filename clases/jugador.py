@@ -14,7 +14,7 @@ class Jugador:
     def recibir_dano(self, dano):
         self.salud -= dano
         if self.salud <= 0:
-            print(f"Has sido derrotado. Game Over!")
+            print("Has sido derrotado. Game Over!")
         
     def ganar_experiencia(self, puntos):
         self.experiencia += puntos
